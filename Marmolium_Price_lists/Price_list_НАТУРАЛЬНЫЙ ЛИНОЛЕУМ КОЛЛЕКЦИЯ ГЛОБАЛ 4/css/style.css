@@ -1,0 +1,36 @@
+.table_price {
+    border-collapse: collapse;
+    border-left: 3px solid #5a567f;
+    border-right: 3px solid #5a567f;
+    border-bottom: 3px solid #5a567f;
+    font-family: "Lucida Grande", sans-serif;
+}
+.table_price caption {
+    background:linear-gradient(#5a567f, #9595b6);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+    color: white;
+    font-family: "Roboto Slab",serif;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+.table_price td, .table_price th {
+    padding: 10px;
+    text-align: center;
+
+}
+.table_price th {
+    text-align: center;
+    font-size: 18px;
+}
+.table_price tr:nth-child(2n) {
+    background: #E5E5E5;
+    text-align: center;
+}
+.table_price td:last-of-type {
+    text-align: center;
+}
