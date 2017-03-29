@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
+.table_price {
+    padding: 0;
+    border-collapse: collapse;
+    border: 20px solid #999999;
+    border-bottom: 5px solid #999999;
+    border-top: 5px solid #999999;
+    font-family: "Lora", serif;
+}
+.table_price caption {
+    background-color: #999999;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+.table_price td, .table_price th {
+    padding: 10px;
+    text-align: center;
+
+}
+.table_price th {
+    text-align: center;
+    font-size: 18px;
+}
+.table_price tr:nth-child(2n) {
+    background: #E5E5E5;
+    text-align: center;
+}
+.table_price td:last-of-type {
+    text-align: center;
+}
+.table_price_container {
+    padding-top: 1px;
+}
+.table_price{
+    background-color: #fff;
+}

@@ -1,0 +1,58 @@
+.image-marmoleum {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+}
+
+.images .column:nth-child(1) .row:nth-child(1) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(2) .row:nth-child(1) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_2.jpeg');
+}
+.images .column:nth-child(3) .row:nth-child(1) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_3.jpg');
+}
+.images .column:nth-child(4) .row:nth-child(1) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_4.png');
+}
+.images .column:nth-child(1) .row:nth-child(2) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(2) .row:nth-child(2) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(3) .row:nth-child(2) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(4) .row:nth-child(2) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(1) .row:nth-child(3) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(2) .row:nth-child(3) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(3) .row:nth-child(3) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(4) .row:nth-child(3) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(1) .row:nth-child(4) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(2) .row:nth-child(4) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(3) .row:nth-child(4) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}
+.images .column:nth-child(4) .row:nth-child(4) .image-marmoleum{
+    background-image: url('../image/main-page_image/img_1.jpg');
+}

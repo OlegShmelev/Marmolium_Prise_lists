@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
+
+body {
+    background-image:
+            linear-gradient(to right, #F6F8F9 0%,#F6F8F9 20%, #dfdfdf 20%, #dfdfdf 60%, #F6F8F9 60%, #F6F8F9 80%, #dfdfdf 80%, #dfdfdf 100%),
+            linear-gradient(to left, #F6F8F9 0%,#F6F8F9 20%, #dfdfdf 20%, #dfdfdf 60%,#F6F8F9 60%,#F6F8F9 80%, #dfdfdf 80%, #dfdfdf 100%);
+    background-size: 100% 49%,
+100% 51%;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+}
+
+
+
+.navbar.navbar-inverse {
+    margin: 0;
+    border-radius: 0;
+}
+
+@font-face {
+    font-family: DublonC; /* имя шрифта для CSS правил */
+    src: local("DublonC"), /* проверяем наличие шрифта в ОС пользователя */ url(../fonts/10230.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+.navbar-brand {
+    font-family: DublonC;
+    font-size: 48px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.nav.navbar-nav.navbar-right {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.nav.navbar-nav.navbar-right li:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.nav.navbar-nav.navbar-right li a:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.image-content {
+    background-color: #999999;
+}
+
+.preimage-text {
+    border: 1px solid #fff;
+    border-left: 0;
+    border-right: 0;
+}
+
+.preimage-text p {
+    padding-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+}
+
+.main-text,
+.footer-text {
+    background-color: rgba(255, 255, 255, 0.56);
+    margin-top: 11px;
+    margin-bottom: 6px;
+    border: 10px solid #999999;
+    border-bottom: 0;
+    border-top: 0;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.main-text p,
+.footer-text p {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+a.order {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    border-radius: 0;
+    border-color: #fff !important;
+}
+
+.footer-images {
+    text-align: center;
+}
+
+.footer-images img {
+    display: inline-block;
+}
+
+.upper-text {
+    font-size: 14px;
+}
+
+.bottom-text {
+    font-size: 12px;
+}
+
+.footer-text {
+    border-bottom: 2px solid #999999;
+}
+footer {
+    height: 80px;
+    background-color: #262626;
+}
